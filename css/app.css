@@ -1,0 +1,82 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: #fae6ff;
+}
+._search_icon {
+  width: 30px;
+  height: 30px;
+}
+._profile_img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+}
+._header_profile_main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+
+#_header_main {
+  background-color: white;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+._user_name {
+  font-weight: bold;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+#_about_us_main {
+  background-color: #f0f1f4;
+  padding: 20px;
+}
+._about_us_image {
+  width: 100%;
+}
+#_courses_heading {
+  margin: 20px;
+}
+._courses_card {
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+._card_image {
+  width: 100%;
+  border-radius: 5px;
+}
+._courses_card_main {
+  width: 100%;
+}
+._card_title {
+  margin-top: 10px;
+}
+._location_icon {
+  width: 25px;
+  height: 25px;
+}
+._location_icon_main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+._location {
+  margin-left: 10px;
+  margin-top: 12px;
+}
+.btn {
+  width: 90% !important;
+}
+@media only screen and (max-width: 575px) {
+  #_search_main {
+    display: none;
+  }
+}
